@@ -1,0 +1,113 @@
+
+/* header and footer */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 5%;
+}
+
+nav {
+    width: 75%;
+}
+
+ul {
+    width: 75%;
+    margin-left: left;
+}
+
+.heroImg {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#heroImage {
+    height: 250px;
+    padding-top: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ddae5c;
+}
+
+footer {
+    background-color: #ddae5c;
+
+}
+
+footer.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+/* fonts */
+
+@font-face {
+    font-family: Lora;
+    src: url(/Fonts/Lora/static/Lora-Medium.ttf)
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 48px;
+    color: #a63c24;
+}
+
+h3 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}
+
+li {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}
+
+/* skills and projects content */
+
+button {
+    color: white;
+    background-color: #3fa680;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.flexContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+div.flexContainer {
+    width: 33%;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
