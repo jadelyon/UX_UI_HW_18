@@ -114,11 +114,13 @@ div.flexContainer {
  
     .flexContainer {
         display: column;
+        grid-template-columns: auto auto;
         width: 100%;
     }
 
     .workGrid {
         display: column;
+        grid-template-columns: auto;
         width: 100%;
     }
     
