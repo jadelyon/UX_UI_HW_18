@@ -54,11 +54,6 @@ section {
 
 /* fonts */
 
-@font-face {
-    font-family: Lora;
-    src: url(/Fonts/Lora/static/Lora-Medium.ttf)
-}
-
 h1 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: normal;
@@ -98,16 +93,33 @@ button {
 
 .flexContainer {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 350px 350px;
 }
 
 div.flexContainer {
     width: 33%;
     padding: 1%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .workGrid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 450px 450px;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 600) {
+ 
+    .flexContainer {
+        display: column;
+        width: 100%;
+    }
+
+    .workGrid {
+        display: column;
+        width: 100%;
+    }
+    
 }
