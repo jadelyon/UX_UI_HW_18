@@ -18,8 +18,9 @@ ul {
 
 .heroImg {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 500px 500px;
 }
+
 
 #heroImage {
     height: 250px;
