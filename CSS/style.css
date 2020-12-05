@@ -21,7 +21,6 @@ ul {
     grid-template-columns: 500px 500px;
 }
 
-
 #heroImage {
     height: 250px;
     padding-top: 25px;
@@ -90,6 +89,10 @@ button {
     background-color: #3fa680;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    padding: 8px 18px;
 }
 
 .flexContainer {
